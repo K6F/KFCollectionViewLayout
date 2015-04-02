@@ -11,7 +11,7 @@
 /**
  *  @author Khiyuan.Fan, 2015-13[4]
  *
- *  Default is 1, set in
+ *  Default is 1, set when using;
  */
 @property (assign) NSInteger columnCount;
 @property (readonly) float columnWidth;

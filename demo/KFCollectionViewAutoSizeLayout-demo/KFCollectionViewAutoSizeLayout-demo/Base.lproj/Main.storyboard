@@ -19,7 +19,7 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNE-Um-V9v">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
-                                    <navigationItem title="点击刷新" id="Qbb-q3-t4r">
+                                    <navigationItem title="Click to refresh" id="Qbb-q3-t4r">
                                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="0CV-gv-QfL">
                                             <connections>
                                                 <action selector="refreshCells:" destination="gbX-ig-Cdd" id="z6d-9r-ikm"/>

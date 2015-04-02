@@ -46,7 +46,6 @@
     float cBlue = [self p_getRandomNumberFrom:1 to:255];
     UIColor * color = [UIColor colorWithRed:cRed/255 green:cGreen/255 blue:cBlue/255 alpha:1];
     [cell.subviews[0] setBackgroundColor :color ];
-    NSLog(@"%d",(int)indexPath.row);
     return cell;
 }
 

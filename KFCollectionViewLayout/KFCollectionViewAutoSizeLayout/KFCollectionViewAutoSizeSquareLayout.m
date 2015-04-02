@@ -11,6 +11,7 @@ static const float SEPARATE_WIDTH = 2.f;
 
 @implementation KFCollectionViewAutoSizeSquareLayout{
     NSMutableArray * _itemsAttributes;
+    CGSize contentSize;
 }
 
 #pragma mark - Public
@@ -28,19 +29,21 @@ static const float SEPARATE_WIDTH = 2.f;
     }
     NSUInteger itemsCount = [[self collectionView] numberOfItemsInSection:0];
     _itemsAttributes = [NSMutableArray arrayWithCapacity:itemsCount];
-    NSLog(@"count:%d",(int)itemsCount);
+    CGFloat width = [self columnWidth];
     for (int idx = 0; idx < itemsCount; idx++) {
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:idx inSection:0];
-        CGFloat width = [self columnWidth];
         int columnIdx = idx % self.columnCount;
         CGFloat pointX = (width + SEPARATE_WIDTH) * columnIdx;
         CGFloat pointY = (width + SEPARATE_WIDTH) * floor(idx/self.columnCount);
         UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
         attributes.frame = CGRectMake(pointX, pointY, width, width);
-        NSLog(@"idx:%d,x:%f,y:%f,w:%f",idx,pointX,pointY,width);
         [_itemsAttributes addObject:attributes];
     }
-
+    // Set the content size
+    float pageWidth = self.collectionView.frame.size.width;
+    double row = ceil((float)itemsCount/self.columnCount);
+    float pageHeight = (width + SEPARATE_WIDTH) * row;
+    contentSize = CGSizeMake(pageWidth, pageHeight);
 }
 -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect{
     NSPredicate *filterPredicate = [NSPredicate predicateWithBlock:^BOOL(UICollectionViewLayoutAttributes * evaluatedObject, NSDictionary *bindings) {
@@ -56,19 +59,7 @@ static const float SEPARATE_WIDTH = 2.f;
 }
 
 
-- (CGSize)collectionViewContentSize
-{
-    // Ask the data source how many items there are (assume a single section)
-    id<UICollectionViewDataSource> dataSource = self.collectionView.dataSource;
-    int numberOfItems = (int)[dataSource collectionView:self.collectionView numberOfItemsInSection:0];
-    CGSize frmSize = self.collectionView.bounds.size;
-    CGFloat width = (frmSize.width - (self.columnCount-1) * SEPARATE_WIDTH)/self.columnCount;
-    
-    // Set the size
-    float pageWidth = self.collectionView.frame.size.width;
-    float pageHeight = (width + 2.f) * ceil(numberOfItems/self.columnCount);
-    CGSize contentSize = CGSizeMake(pageWidth, pageHeight);
-    
+- (CGSize)collectionViewContentSize{
     return contentSize;
 }
 @end
