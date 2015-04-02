@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KFCollectionViewAutoSizeLayout_demo_KFCollectionViewLayout : NSObject
+@end
+@implementation PodsDummy_Pods_KFCollectionViewAutoSizeLayout_demo_KFCollectionViewLayout
+@end

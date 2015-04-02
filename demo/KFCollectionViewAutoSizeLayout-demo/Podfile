@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'KFCollectionViewAutoSizeLayout-demo' do
-pod 'KFCollectionViewLayout', :local => '../../KFCollectionViewLayout.podspec'
+pod 'KFCollectionViewLayout', :path => '../../KFCollectionViewLayout.podspec'
 end
 
 target 'KFCollectionViewAutoSizeLayout-demoTests' do

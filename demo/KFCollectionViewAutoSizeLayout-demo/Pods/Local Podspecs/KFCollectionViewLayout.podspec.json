@@ -1,0 +1,24 @@
+{
+  "name": "KFCollectionViewLayout",
+  "version": "0.0.1",
+  "summary": "A CollectionViewLayout used in Project",
+  "description": "                   == KFCollectionViewLayout\n\n\t\t\t\t   Some layout used in project.\n\n\t\t\t\t   * KFCollectionViewAutoSizeSquareLayout\n",
+  "homepage": "https://github.com/K6F/KFCollectionViewLayout",
+  "license": "CC0",
+  "authors": {
+    "K6F": "Fan.Khiyuan@gmail.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/K6F/KFCollectionViewLayout.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "KFCollectionViewLayout",
+    "KFCollectionViewLayout/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "requires_arc": true
+}

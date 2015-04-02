@@ -1,0 +1,14 @@
+PODS:
+  - KFCollectionViewLayout (0.0.1)
+
+DEPENDENCIES:
+  - KFCollectionViewLayout (from `../../KFCollectionViewLayout.podspec`)
+
+EXTERNAL SOURCES:
+  KFCollectionViewLayout:
+    :path: ../../KFCollectionViewLayout.podspec
+
+SPEC CHECKSUMS:
+  KFCollectionViewLayout: a44f0db8817d3796ded4027823bed87c3bf4196d
+
+COCOAPODS: 0.36.0

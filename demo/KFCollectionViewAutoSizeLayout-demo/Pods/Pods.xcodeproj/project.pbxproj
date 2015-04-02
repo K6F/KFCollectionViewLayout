@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232BA1F8B73170E194287D39 /* KFCollectionViewAutoSizeSquareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9D3C8F277F7060F55B78E /* KFCollectionViewAutoSizeSquareLayout.m */; };
+		308925AE0863B443DE417B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC2521332BFD2CF69C4862C /* Foundation.framework */; };
+		35D31D7057AA05ED68F07CA4 /* KFCollectionViewAutoSizeSquareLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1779235F0E70B8F9B584F1A9 /* KFCollectionViewAutoSizeSquareLayout.h */; };
+		6544B13DA91CB8F367B115B5 /* Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E456F1F33F9EFB341E5EC2B /* Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m */; };
+		843359DF39609F55DB7198A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC2521332BFD2CF69C4862C /* Foundation.framework */; };
+		D62B9BA60342C6102F5CDF9F /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319EF40415F2FB462D77467 /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C3925C47A4073111F1CEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78EF386F5436643EC79C701D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67586759AA819AECDD3693AC;
+			remoteInfo = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E456F1F33F9EFB341E5EC2B /* Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m"; sourceTree = "<group>"; };
+		1319EF40415F2FB462D77467 /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		1779235F0E70B8F9B584F1A9 /* KFCollectionViewAutoSizeSquareLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KFCollectionViewAutoSizeSquareLayout.h; sourceTree = "<group>"; };
+		2DE9D3C8F277F7060F55B78E /* KFCollectionViewAutoSizeSquareLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KFCollectionViewAutoSizeSquareLayout.m; sourceTree = "<group>"; };
+		37AAC70774CDCC8F3AA5C72D /* Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4036F7820EE8F58A2115CE90 /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		421167BCC2C0D779FCE2DF5B /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		5BC2521332BFD2CF69C4862C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63D9F1DD0908CF334686EF4E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67153B3768BD57ACC25963C8 /* Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9661ABE52D4F8899579B4C89 /* Pods-KFCollectionViewAutoSizeLayout-demo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFCollectionViewAutoSizeLayout-demo-environment.h"; sourceTree = "<group>"; };
+		A101B20C067E74CDB0FA923E /* Pods-KFCollectionViewAutoSizeLayout-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCollectionViewAutoSizeLayout-demo.release.xcconfig"; sourceTree = "<group>"; };
+		A2F32FCCD3269A12C52F6E6F /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.xcconfig"; sourceTree = "<group>"; };
+		B25515427FB751A97C82564B /* Pods-KFCollectionViewAutoSizeLayout-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFCollectionViewAutoSizeLayout-demo-resources.sh"; sourceTree = "<group>"; };
+		CABD34292BB0E0D72C944BED /* libPods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF285E367970841C3873ACCD /* libPods-KFCollectionViewAutoSizeLayout-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFCollectionViewAutoSizeLayout-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C182ABF4F14134F2CD0E3B /* Pods-KFCollectionViewAutoSizeLayout-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFCollectionViewAutoSizeLayout-demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A30291539DF3A0F8F25546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308925AE0863B443DE417B09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4085FA16F16EAB7B2668F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843359DF39609F55DB7198A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00653201EA8F4484540EEB8E /* KFCollectionViewAutoSizeLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1779235F0E70B8F9B584F1A9 /* KFCollectionViewAutoSizeSquareLayout.h */,
+				2DE9D3C8F277F7060F55B78E /* KFCollectionViewAutoSizeSquareLayout.m */,
+			);
+			path = KFCollectionViewAutoSizeLayout;
+			sourceTree = "<group>";
+		};
+		05B32D80DF6944F2FAE1A30E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50D45DDB8AA9A9BDBB9C334 /* Pods-KFCollectionViewAutoSizeLayout-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FF4DAB1ED2D11F208BA7EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF285E367970841C3873ACCD /* libPods-KFCollectionViewAutoSizeLayout-demo.a */,
+				CABD34292BB0E0D72C944BED /* libPods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34907574D8B169412338A1C3 /* KFCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0CA26DAE195737978DA14 /* KFCollectionViewLayout */,
+				E0438BC770B99ACC3A3A5C12 /* Support Files */,
+			);
+			name = KFCollectionViewLayout;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		4E74444F0EC87E3A1B5FF5D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34907574D8B169412338A1C3 /* KFCollectionViewLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5230EA3E78341794E3440D66 = {
+			isa = PBXGroup;
+			children = (
+				63D9F1DD0908CF334686EF4E /* Podfile */,
+				4E74444F0EC87E3A1B5FF5D4 /* Development Pods */,
+				C4BA5B9783C6EFC62DBA9DB1 /* Frameworks */,
+				1FF4DAB1ED2D11F208BA7EE9 /* Products */,
+				05B32D80DF6944F2FAE1A30E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7518F497882F2B2EC58A4611 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5BC2521332BFD2CF69C4862C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4BA5B9783C6EFC62DBA9DB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7518F497882F2B2EC58A4611 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0438BC770B99ACC3A3A5C12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F32FCCD3269A12C52F6E6F /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.xcconfig */,
+				421167BCC2C0D779FCE2DF5B /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-Private.xcconfig */,
+				1319EF40415F2FB462D77467 /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m */,
+				4036F7820EE8F58A2115CE90 /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "demo/KFCollectionViewAutoSizeLayout-demo/Pods/Target Support Files/Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		E50D45DDB8AA9A9BDBB9C334 /* Pods-KFCollectionViewAutoSizeLayout-demo */ = {
+			isa = PBXGroup;
+			children = (
+				37AAC70774CDCC8F3AA5C72D /* Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.markdown */,
+				67153B3768BD57ACC25963C8 /* Pods-KFCollectionViewAutoSizeLayout-demo-acknowledgements.plist */,
+				0E456F1F33F9EFB341E5EC2B /* Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m */,
+				9661ABE52D4F8899579B4C89 /* Pods-KFCollectionViewAutoSizeLayout-demo-environment.h */,
+				B25515427FB751A97C82564B /* Pods-KFCollectionViewAutoSizeLayout-demo-resources.sh */,
+				F3C182ABF4F14134F2CD0E3B /* Pods-KFCollectionViewAutoSizeLayout-demo.debug.xcconfig */,
+				A101B20C067E74CDB0FA923E /* Pods-KFCollectionViewAutoSizeLayout-demo.release.xcconfig */,
+			);
+			name = "Pods-KFCollectionViewAutoSizeLayout-demo";
+			path = "Target Support Files/Pods-KFCollectionViewAutoSizeLayout-demo";
+			sourceTree = "<group>";
+		};
+		F6D0CA26DAE195737978DA14 /* KFCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				00653201EA8F4484540EEB8E /* KFCollectionViewAutoSizeLayout */,
+			);
+			path = KFCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB894CFD960CECD3579E7BC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D31D7057AA05ED68F07CA4 /* KFCollectionViewAutoSizeSquareLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67586759AA819AECDD3693AC /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F0D8364E4CCF3DB14EAB65 /* Build configuration list for PBXNativeTarget "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout" */;
+			buildPhases = (
+				00CE86E97D6158569B94224B /* Sources */,
+				9A30291539DF3A0F8F25546B /* Frameworks */,
+				BB894CFD960CECD3579E7BC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout";
+			productName = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout";
+			productReference = CABD34292BB0E0D72C944BED /* libPods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3CB4EA115A2DFCE6C871A3F /* Pods-KFCollectionViewAutoSizeLayout-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E24C90769B03C9D7BF80E8 /* Build configuration list for PBXNativeTarget "Pods-KFCollectionViewAutoSizeLayout-demo" */;
+			buildPhases = (
+				D14DF5D94FC966AA3E6D71C9 /* Sources */,
+				D4085FA16F16EAB7B2668F4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C5759E367CACD0424ECB6C /* PBXTargetDependency */,
+			);
+			name = "Pods-KFCollectionViewAutoSizeLayout-demo";
+			productName = "Pods-KFCollectionViewAutoSizeLayout-demo";
+			productReference = DF285E367970841C3873ACCD /* libPods-KFCollectionViewAutoSizeLayout-demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78EF386F5436643EC79C701D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 95D444B13060C2441FDE9F7B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5230EA3E78341794E3440D66;
+			productRefGroup = 1FF4DAB1ED2D11F208BA7EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3CB4EA115A2DFCE6C871A3F /* Pods-KFCollectionViewAutoSizeLayout-demo */,
+				67586759AA819AECDD3693AC /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CE86E97D6158569B94224B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BA1F8B73170E194287D39 /* KFCollectionViewAutoSizeSquareLayout.m in Sources */,
+				D62B9BA60342C6102F5CDF9F /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DF5D94FC966AA3E6D71C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6544B13DA91CB8F367B115B5 /* Pods-KFCollectionViewAutoSizeLayout-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50C5759E367CACD0424ECB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout";
+			target = 67586759AA819AECDD3693AC /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout */;
+			targetProxy = 53C3925C47A4073111F1CEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017D506839B5B6AE9E86E0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421167BCC2C0D779FCE2DF5B /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout/Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0AB93E5D6DC97E4F498D0C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56781C82B659A4CF99F61EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C182ABF4F14134F2CD0E3B /* Pods-KFCollectionViewAutoSizeLayout-demo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6DE04238FC124F794646875A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A101B20C067E74CDB0FA923E /* Pods-KFCollectionViewAutoSizeLayout-demo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9147027E75813BCCEAA870F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97D8F4D7808CF7813C6780C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421167BCC2C0D779FCE2DF5B /* Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout/Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F0D8364E4CCF3DB14EAB65 /* Build configuration list for PBXNativeTarget "Pods-KFCollectionViewAutoSizeLayout-demo-KFCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D8F4D7808CF7813C6780C6 /* Debug */,
+				017D506839B5B6AE9E86E0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D444B13060C2441FDE9F7B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9147027E75813BCCEAA870F2 /* Debug */,
+				0AB93E5D6DC97E4F498D0C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E24C90769B03C9D7BF80E8 /* Build configuration list for PBXNativeTarget "Pods-KFCollectionViewAutoSizeLayout-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56781C82B659A4CF99F61EBB /* Debug */,
+				6DE04238FC124F794646875A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78EF386F5436643EC79C701D /* Project object */;
+}
