@@ -1,16 +1,16 @@
 //
-//  KFCollectionViewAutoSizeSquareLayout.m
+//  KFCollectionViewAutoSize4_3Layout.m
 //  KFCollectionViewLayout
 //
 //  Created by K6F on 15/13[4].
 //
 
-#import "KFCollectionViewAutoSizeSquareLayout.h"
+#import "KFCollectionViewAutoSize4_3Layout.h"
 
 static const float SEPARATE_WIDTH = 2.f;
 static const float SEPARATE_HEIGHT = 2.f;
 
-@implementation KFCollectionViewAutoSizeSquareLayout{
+@implementation KFCollectionViewAutoSize4_3Layout{
     NSMutableArray * _itemsAttributes;
     CGSize contentSize;
 }
@@ -22,14 +22,14 @@ static const float SEPARATE_HEIGHT = 2.f;
     return width;
 }
 -(float)columnHeight{
-    return self.columnWidth;
+    return ((int)([self columnWidth]/3*4* 100))/100;
 }
 #pragma mark UICollectionViewLayout
 
 -(void)prepareLayout{
-    if (0 == self.columnCount) {
-        self.columnCount = 1;
-    }
+//    if (0 == self.columnCount) {
+        self.columnCount = 3;
+//    }
     NSUInteger itemsCount = [[self collectionView] numberOfItemsInSection:0];
     _itemsAttributes = [NSMutableArray arrayWithCapacity:itemsCount];
     CGFloat width = [self columnWidth];
