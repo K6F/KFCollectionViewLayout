@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/K6F/KFCollectionViewLayout.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/K6F/KFCollectionViewLayout.git", :tag => "0.0.4" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
